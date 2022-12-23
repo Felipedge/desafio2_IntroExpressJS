@@ -5,7 +5,7 @@ const PORT = 3000;
 
 
 
-app.listen(3000, console.log("¡Servidor encendido!"))
+app.listen(PORT, console.log("¡Servidor encendido!"))
 
 
 app.get("/home", (req, res) => {
